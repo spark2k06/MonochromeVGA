@@ -6,7 +6,7 @@ Select green, amber or B&W as monochromatic color, among others. Change color to
 
 https://hackaday.io/project/166041-monochromevga
 
-![alt text](MonochreomeVGA.png "Esquema")
+![alt text](MonochromeVGA.png "Esquema")
 
 Disclaimer:
 
