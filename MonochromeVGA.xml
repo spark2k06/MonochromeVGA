@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Kicad\MonochromeVGA\MonochromeVGA.sch</source>
+    <date>20/11/2020 12:14:08</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>MonochromeVGA.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFB69C2</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>9.1R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFB66A7</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>33R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFB5D29</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>MONO &lt;-&gt; COLOR</value>
+      <footprint>MonochromeVGA:SW-SK-42D01-G</footprint>
+      <datasheet>https://www.e-switch.com/system/asset/product_line/data_sheet/119/EG.pdf</datasheet>
+      <fields>
+        <field name="Description">Slide Switches 4P2T SIDE OP PC MNT</field>
+        <field name="Height">5</field>
+        <field name="Manufacturer_Name">E-Switch</field>
+        <field name="Manufacturer_Part_Number">EG4208A</field>
+        <field name="Mouser Part Number">612-EG4208A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/E-Switch/EG4208A?qs=01kh3H%252BlXijiZ%252BDtLjJDLw%3D%3D</field>
+      </fields>
+      <libsource lib="MonochromeVGA" part="EG4208A-SammacSys" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF6D4E3</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>VGA IN</value>
+      <footprint>MonochromeVGA:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB15_Female_HighDensity_MountingHoles" description="15-pin female D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3966B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>VGA OUT</value>
+      <footprint>MonochromeVGA:DSUB-15-HD_Female_Horizontal_P2.29x1.98mm_EdgePinOffset8.35mm_Housed_MountingHolesOffset10.89mm</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB15_Female_HighDensity_MountingHoles" description="15-pin female D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB4BC4F</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>D_Schottky</value>
+      <footprint>MonochromeVGA:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3B239</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW1</value>
+      <footprint>Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_DIP_x04" description="4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3B535</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>75R</value>
+      <footprint>Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3BF4C</tstamp>
+    </comp>
+    <comp ref="D'1">
+      <value> </value>
+      <footprint>MonochromeVGA:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB5228B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Schottky</value>
+      <footprint>MonochromeVGA:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3CEF5</tstamp>
+    </comp>
+    <comp ref="D'2">
+      <value> </value>
+      <footprint>MonochromeVGA:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB6A4FA</tstamp>
+    </comp>
+    <comp ref="D'4">
+      <value> </value>
+      <footprint>MonochromeVGA:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB746E5</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>D_Schottky</value>
+      <footprint>MonochromeVGA:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3C685</tstamp>
+    </comp>
+    <comp ref="D'3">
+      <value> </value>
+      <footprint>MonochromeVGA:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB8383A</tstamp>
+    </comp>
+    <comp ref="R'1">
+      <value>33R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB94FA0</tstamp>
+    </comp>
+    <comp ref="R'2">
+      <value>9.1R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB9BAE1</tstamp>
+    </comp>
+    <comp ref="R'3">
+      <value>100R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB9BCA6</tstamp>
+    </comp>
+    <comp ref="R'4">
+      <value>75R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FBA69D4</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky</value>
+      <footprint>MonochromeVGA:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB3D699</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="DB15_Female_HighDensity_MountingHoles">
+      <description>15-pin female D-SUB connector, High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Female*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB15_Female_HighDensity_MountingHoles</field>
+      </fields>
+      <pins>
+        <pin num="0" name="~" type="passive"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MonochromeVGA" part="EG4208A-SammacSys">
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">EG4208A-SammacSys</field>
+        <field name="Footprint">EG4208A</field>
+        <field name="Datasheet">https://www.e-switch.com/system/asset/product_line/data_sheet/119/EG.pdf</field>
+        <field name="Description">Slide Switches 4P2T SIDE OP PC MNT</field>
+        <field name="Height">5</field>
+        <field name="Mouser Part Number">612-EG4208A</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/E-Switch/EG4208A?qs=01kh3H%252BlXijiZ%252BDtLjJDLw%3D%3D</field>
+        <field name="Manufacturer_Name">E-Switch</field>
+        <field name="Manufacturer_Part_Number">EG4208A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC_1" type="passive"/>
+        <pin num="2" name="COM_1" type="passive"/>
+        <pin num="3" name="NO_1" type="passive"/>
+        <pin num="4" name="NC_2" type="passive"/>
+        <pin num="5" name="COM_2" type="passive"/>
+        <pin num="6" name="NO_2" type="passive"/>
+        <pin num="7" name="NC_3" type="passive"/>
+        <pin num="8" name="COM_3" type="passive"/>
+        <pin num="9" name="NO_3" type="passive"/>
+        <pin num="10" name="NC_4" type="passive"/>
+        <pin num="11" name="COM_4" type="passive"/>
+        <pin num="12" name="NO_4" type="passive"/>
+        <pin num="MH1" name="MH1" type="passive"/>
+        <pin num="MH2" name="MH2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x04">
+      <description>4x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x4*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MonochromeVGA">
+      <uri>D:\Kicad\MonochromeVGA/MonochromeVGA.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/G75">
+      <node ref="R4" pin="2"/>
+      <node ref="R'4" pin="2"/>
+      <node ref="SW1" pin="7"/>
+    </net>
+    <net code="2" name="Net-(D'3-Pad1)">
+      <node ref="SW1" pin="3"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D'3" pin="1"/>
+    </net>
+    <net code="3" name="/G_OUT">
+      <node ref="S1" pin="4"/>
+      <node ref="R4" pin="1"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R'4" pin="1"/>
+    </net>
+    <net code="4" name="/B_OUT">
+      <node ref="S1" pin="7"/>
+      <node ref="J2" pin="3"/>
+      <node ref="SW1" pin="6"/>
+    </net>
+    <net code="5" name="/R_OUT">
+      <node ref="S1" pin="1"/>
+      <node ref="SW1" pin="8"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D'1-Pad1)">
+      <node ref="SW1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D'1" pin="1"/>
+    </net>
+    <net code="7" name="/R_IN">
+      <node ref="S1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="8" name="/GND">
+      <node ref="J1" pin="6"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="10"/>
+      <node ref="J1" pin="0"/>
+      <node ref="J2" pin="10"/>
+      <node ref="S1" pin="MH2"/>
+      <node ref="S1" pin="MH1"/>
+      <node ref="J2" pin="8"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J2" pin="5"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J2" pin="0"/>
+      <node ref="J1" pin="8"/>
+    </net>
+    <net code="9" name="/VGA_PWR">
+      <node ref="J1" pin="9"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="10" name="/ID2">
+      <node ref="J2" pin="4"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="11" name="/ID3">
+      <node ref="J2" pin="15"/>
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="12" name="/VSYNC">
+      <node ref="J1" pin="14"/>
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="13" name="/HSYNC">
+      <node ref="J2" pin="13"/>
+      <node ref="J1" pin="13"/>
+    </net>
+    <net code="14" name="/ID1">
+      <node ref="J1" pin="12"/>
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="15" name="/ID0">
+      <node ref="J1" pin="11"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="16" name="/R_L">
+      <node ref="R'1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="S1" pin="3"/>
+    </net>
+    <net code="17" name="Net-(D'4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="D'4" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D'2-Pad1)">
+      <node ref="SW1" pin="2"/>
+      <node ref="D'2" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="19" name="/G_L">
+      <node ref="S1" pin="6"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R'2" pin="2"/>
+    </net>
+    <net code="20" name="/B_IN">
+      <node ref="S1" pin="8"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="21" name="/B_L">
+      <node ref="R'3" pin="2"/>
+      <node ref="S1" pin="9"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="22" name="/LUMA">
+      <node ref="D'3" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D'4" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="D'2" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D4" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D'1" pin="2"/>
+      <node ref="R'1" pin="1"/>
+      <node ref="R'3" pin="1"/>
+      <node ref="R'2" pin="1"/>
+    </net>
+    <net code="23" name="/G_IN">
+      <node ref="S1" pin="5"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="24" name="Net-(S1-Pad11)">
+      <node ref="S1" pin="11"/>
+    </net>
+    <net code="25" name="Net-(S1-Pad12)">
+      <node ref="S1" pin="12"/>
+    </net>
+    <net code="26" name="Net-(S1-Pad10)">
+      <node ref="S1" pin="10"/>
+    </net>
+  </nets>
+</export>
